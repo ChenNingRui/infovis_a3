@@ -1,24 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useMemo } from 'react';
+import MainPage from './Pages/MainPage';
+import MyContext from './MyContext';
+
+//jsons
+import countriesCodeJson from './resources/country-codes-europe.json';
+import stationsCodeJson from './resources/stations-europe.json';
+import temperatureJson from './resources/temperature-monthly-europe.json';
 
 function App() {
+  let [yearBountry, setYearBountry] = useState({ 'min': 1939, 'max': 2017 });
+  let [monthBountry, setmonthBountry] = useState({ min: 1, max: 12 });
+  let [yearDuring, setyearDuring] = useState(localStorage.getItem('yearDuring') || '1966, 1990');
+  let [monthDuring, setMonthDuring] = useState(localStorage.getItem('monthDuring') || '1, 12');
+
+  let [countries, setCountries] = useState(JSON.parse(localStorage.getItem('countries')) || countriesCodeJson);
+  let [selected, setSelected] = useState(null);
+
+  // Make the context object:
+  const usersContext = {
+    selected,
+    yearBountry,
+    monthBountry,
+    yearDuring,
+    monthDuring,
+    countries,
+    countriesCodeJson,
+    temperatureJson,
+    stationsCodeJson,
+    setCountries,
+    setyearDuring,
+    setmonthBountry,
+    setYearBountry,
+    setMonthDuring,
+    setSelected
+  };
+
+  useMemo(() => {
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MyContext.Provider value={usersContext}>
+      <MainPage />
+    </MyContext.Provider>
   );
 }
 

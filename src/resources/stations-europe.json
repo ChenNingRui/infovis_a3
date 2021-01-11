@@ -1,0 +1,302 @@
+[
+  {
+    "Station": "EIM00003953",
+    "Latitude": 51.9381,
+    "Longitude": -10.2433,
+    "Elevation": 23.9,
+    "CountryCode": "EI",
+    "Name": "Valentia Observatory",
+    "YearFirst": 1949,
+    "YearLast": 2017
+  },
+  {
+    "Station": "GMM00010035",
+    "Latitude": 54.5333,
+    "Longitude": 9.55,
+    "Elevation": 47,
+    "CountryCode": "GM",
+    "Name": "Schleswig",
+    "YearFirst": 1954,
+    "YearLast": 2017
+  },
+  {
+    "Station": "GMM00010338",
+    "Latitude": 52.45,
+    "Longitude": 9.7167,
+    "Elevation": 52,
+    "CountryCode": "GM",
+    "Name": "Hannover",
+    "YearFirst": 1949,
+    "YearLast": 1972
+  },
+  {
+    "Station": "GMM00010384",
+    "Latitude": 52.4667,
+    "Longitude": 13.4,
+    "Elevation": 50,
+    "CountryCode": "GM",
+    "Name": "Berlin/Tempelhof",
+    "YearFirst": 1941,
+    "YearLast": 1972
+  },
+  {
+    "Station": "GMM00010513",
+    "Latitude": 50.8667,
+    "Longitude": 7.1333,
+    "Elevation": 91,
+    "CountryCode": "GM",
+    "Name": "Koln/Bonn",
+    "YearFirst": 1962,
+    "YearLast": 1965
+  },
+  {
+    "Station": "GMM00010548",
+    "Latitude": 50.5617,
+    "Longitude": 10.3772,
+    "Elevation": 450,
+    "CountryCode": "GM",
+    "Name": "Meiningen",
+    "YearFirst": 1969,
+    "YearLast": 2017
+  },
+  {
+    "Station": "GMM00010633",
+    "Latitude": 50.05,
+    "Longitude": 8.33,
+    "Elevation": 139,
+    "CountryCode": "GM",
+    "Name": "Wiesbaden",
+    "YearFirst": 1946,
+    "YearLast": 1957
+  },
+  {
+    "Station": "GMM00010866",
+    "Latitude": 48.354,
+    "Longitude": 11.786,
+    "Elevation": 453,
+    "CountryCode": "GM",
+    "Name": "Munich/Riem",
+    "YearFirst": 1946,
+    "YearLast": 1976
+  },
+  {
+    "Station": "GMM00010868",
+    "Latitude": 48.2442,
+    "Longitude": 11.5525,
+    "Elevation": 484,
+    "CountryCode": "GM",
+    "Name": "Muenchen-Oberschleissheim",
+    "YearFirst": 1976,
+    "YearLast": 2017
+  },
+  {
+    "Station": "ICM00004018",
+    "Latitude": 63.9806,
+    "Longitude": -22.595,
+    "Elevation": 52,
+    "CountryCode": "IC",
+    "Name": "Keflavikurflugvollur",
+    "YearFirst": 1946,
+    "YearLast": 2017
+  },
+  {
+    "Station": "ITM00016242",
+    "Latitude": 41.8,
+    "Longitude": 12.233,
+    "Elevation": 3,
+    "CountryCode": "IT",
+    "Name": "Roma Fiumicino",
+    "YearFirst": 1952,
+    "YearLast": 1986
+  },
+  {
+    "Station": "PLM00012425",
+    "Latitude": 51.1131,
+    "Longitude": 16.8811,
+    "Elevation": 119.6,
+    "CountryCode": "PL",
+    "Name": "Wroclaw I",
+    "YearFirst": 1956,
+    "YearLast": 2017
+  },
+  {
+    "Station": "POM00008579",
+    "Latitude": 38.7667,
+    "Longitude": -9.1333,
+    "Elevation": 104,
+    "CountryCode": "PO",
+    "Name": "Lisboa/Gago Coutinho",
+    "YearFirst": 1948,
+    "YearLast": 2017
+  },
+  {
+    "Station": "SWM00002062",
+    "Latitude": 63.1833,
+    "Longitude": 14.5,
+    "Elevation": 366,
+    "CountryCode": "SW",
+    "Name": "Ostersund/Froson",
+    "YearFirst": 1949,
+    "YearLast": 1972
+  },
+  {
+    "Station": "SWM00002077",
+    "Latitude": 59.35,
+    "Longitude": 17.95,
+    "Elevation": 22,
+    "CountryCode": "SW",
+    "Name": "Stockholm/Bromma",
+    "YearFirst": 1949,
+    "YearLast": 1972
+  },
+  {
+    "Station": "SWM00002084",
+    "Latitude": 57.7167,
+    "Longitude": 11.7833,
+    "Elevation": 5,
+    "CountryCode": "SW",
+    "Name": "Goteburg/Torslanda",
+    "YearFirst": 1949,
+    "YearLast": 1972
+  },
+  {
+    "Station": "SWM00002185",
+    "Latitude": 65.5433,
+    "Longitude": 22.1144,
+    "Elevation": 17,
+    "CountryCode": "SW",
+    "Name": "Lulea-Kallax",
+    "YearFirst": 1949,
+    "YearLast": 2017
+  },
+  {
+    "Station": "SWM00002365",
+    "Latitude": 62.5317,
+    "Longitude": 17.4361,
+    "Elevation": 3.9,
+    "CountryCode": "SW",
+    "Name": "Sundsvall Harnosand",
+    "YearFirst": 1965,
+    "YearLast": 2017
+  },
+  {
+    "Station": "SWM00002515",
+    "Latitude": 58.183,
+    "Longitude": 12.15,
+    "Elevation": 20,
+    "CountryCode": "SW",
+    "Name": "Torpabron",
+    "YearFirst": 1977,
+    "YearLast": 1977
+  },
+  {
+    "Station": "SWM00002527",
+    "Latitude": 57.6572,
+    "Longitude": 12.2911,
+    "Elevation": 164,
+    "CountryCode": "SW",
+    "Name": "Goteborg/Landvetter",
+    "YearFirst": 1977,
+    "YearLast": 2017
+  },
+  {
+    "Station": "SWM00002591",
+    "Latitude": 57.65,
+    "Longitude": 18.35,
+    "Elevation": 45,
+    "CountryCode": "SW",
+    "Name": "Visby Aerologiska Station",
+    "YearFirst": 1977,
+    "YearLast": 2017
+  },
+  {
+    "Station": "UKM00003005",
+    "Latitude": 60.1392,
+    "Longitude": -1.1847,
+    "Elevation": 82,
+    "CountryCode": "UK",
+    "Name": "Lerwick",
+    "YearFirst": 1941,
+    "YearLast": 2017
+  },
+  {
+    "Station": "UKM00003502",
+    "Latitude": 52.1394,
+    "Longitude": -4.5711,
+    "Elevation": 133,
+    "CountryCode": "UK",
+    "Name": "Aberporth",
+    "YearFirst": 1969,
+    "YearLast": 2017
+  },
+  {
+    "Station": "UKM00003743",
+    "Latitude": 51.2017,
+    "Longitude": -1.8058,
+    "Elevation": 132,
+    "CountryCode": "UK",
+    "Name": "Larkhill",
+    "YearFirst": 1942,
+    "YearLast": 2017
+  },
+  {
+    "Station": "UPM00033345",
+    "Latitude": 50.4,
+    "Longitude": 30.5667,
+    "Elevation": 166,
+    "CountryCode": "UP",
+    "Name": "Kiev",
+    "YearFirst": 1939,
+    "YearLast": 2017
+  },
+  {
+    "Station": "UPM00033393",
+    "Latitude": 49.8167,
+    "Longitude": 23.95,
+    "Elevation": 319,
+    "CountryCode": "UP",
+    "Name": "Lviv",
+    "YearFirst": 1947,
+    "YearLast": 2017
+  },
+  {
+    "Station": "UPM00033658",
+    "Latitude": 48.3667,
+    "Longitude": 25.9,
+    "Elevation": 242,
+    "CountryCode": "UP",
+    "Name": "Chernivtsi",
+    "YearFirst": 1950,
+    "YearLast": 2017
+  },
+  {
+    "Station": "UPM00033837",
+    "Latitude": 46.4333,
+    "Longitude": 30.7667,
+    "Elevation": 42,
+    "CountryCode": "UP",
+    "Name": "Odesa",
+    "YearFirst": 1939,
+    "YearLast": 2017
+  },
+  {
+    "Station": "UPM00033946",
+    "Latitude": 44.6833,
+    "Longitude": 34.1333,
+    "Elevation": 180,
+    "CountryCode": "UP",
+    "Name": "Simferopol",
+    "YearFirst": 1950,
+    "YearLast": 2010
+  },
+  {
+    "Station": "UPM00034300",
+    "Latitude": 49.9667,
+    "Longitude": 36.1333,
+    "Elevation": 154,
+    "CountryCode": "UP",
+    "Name": "Kharkiv",
+    "YearFirst": 1939,
+    "YearLast": 2017
+  }
+]
