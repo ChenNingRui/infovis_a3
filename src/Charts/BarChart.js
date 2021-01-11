@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
-import Plot from 'react-plotly.js';
 import MyContext from '../MyContext';
+import loadable from 'loadable-components';
+const Plot = loadable(() => import('react-plotly.js'));
 
 
 export default function BarChart() {
