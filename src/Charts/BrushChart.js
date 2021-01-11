@@ -1,7 +1,10 @@
 import React, { useEffect, useContext, useState } from 'react';
-import ReactApexChart from 'react-apexcharts';
+// import ReactApexChart from 'react-apexcharts';
 import Typography from '@material-ui/core/Typography';
 import MyContext from '../MyContext';
+
+import loadable from 'loadable-components';
+const ReactApexChart = loadable(() => import('react-apexcharts'));
 
 export default function BrushChart() {
     let usersContext = useContext(MyContext);
