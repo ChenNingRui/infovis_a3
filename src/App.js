@@ -36,6 +36,9 @@ function App() {
   };
 
   useMemo(() => {
+    countriesCodeJson = JSON.parse(countriesCodeJson);
+    temperatureJson = JSON.parse(temperatureJson);
+    stationsCodeJson = JSON.parse(stationsCodeJson);
   }, []);
 
   return (
