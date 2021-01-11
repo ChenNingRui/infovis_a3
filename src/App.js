@@ -6,6 +6,7 @@ import MyContext from './MyContext';
 import countriesCodeJson from './resources/country-codes-europe.json';
 import stationsCodeJson from './resources/stations-europe.json';
 import temperatureJson from './resources/temperature-monthly-europe.json';
+import gjson from './resources/europe.json';
 
 function App() {
   let [yearBountry, setYearBountry] = useState({ 'min': 1939, 'max': 2017 });
@@ -24,6 +25,7 @@ function App() {
     yearDuring,
     monthDuring,
     countries,
+    gjson,
     countriesCodeJson,
     temperatureJson,
     stationsCodeJson,

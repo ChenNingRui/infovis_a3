@@ -1,5 +1,4 @@
 import React, { useRef, useEffect, useContext } from 'react';
-import gjson from '../resources/europe.json';
 import * as d3 from 'd3';
 import MyContext from '../MyContext';
 
@@ -7,6 +6,7 @@ export default function Map() {
     const d3Container = useRef(null);
     let usersContext = useContext(MyContext);
     let { stationsCodeJson,
+        gjson,
         countries,
         setSelected } = usersContext;
 
