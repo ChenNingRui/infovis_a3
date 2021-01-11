@@ -45,7 +45,7 @@ export default function ControlPanel() {
                 </Grid>
                 <Grid item xs={12}>
                     <Button variant="contained" color="primary" onClick={handleButtonClick}>
-                        Comfirm
+                        Confirm
                     </Button>
                 </Grid>
             </Grid>

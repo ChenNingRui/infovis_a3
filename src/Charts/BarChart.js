@@ -42,7 +42,6 @@ export default function BarChart() {
         }
 
         setData(list);
-
     }
 
     let checkCondition = (item, areas, yDuring, mDuring) => {
@@ -60,6 +59,24 @@ export default function BarChart() {
 
     let layout = {
         barmode: 'stack',
+        xaxis: {
+            title: {
+                text: 'Time',
+                font: {
+                    size: 18,
+                    color: '#7f7f7f'
+                }
+            },
+        },
+        yaxis: {
+            title: {
+                text: 'Temperature',
+                font: {
+                    size: 18,
+                    color: '#7f7f7f'
+                }
+            }
+        }
     };
 
 
