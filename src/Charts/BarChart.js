@@ -75,7 +75,14 @@ export default function BarChart() {
                     size: 18,
                     color: '#7f7f7f'
                 }
-            }
+            },
+            autorange: true,
+            showgrid: false,
+            zeroline: false,
+            showline: false,
+            autotick: true,
+            ticks: '',
+            showticklabels: false
         }
     };
 

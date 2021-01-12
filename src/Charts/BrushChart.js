@@ -143,18 +143,19 @@ export default function BrushChart() {
     };
 
     useEffect(() => {
-        dataFilter(selected, temperatureJson);
-    }, [selected]);
+        dataFilter(selected, yearDuring,
+            monthDuring, temperatureJson);
+    }, [selected, yearDuring, monthDuring]);
 
 
-    let dataFilter = (select, dataset) => {
+    let dataFilter = (select, yDuring, mDuring, dataset) => {
         if (!select)
             return;
 
         let temperature = [];
         let observations = [];
-        let yDuring = yearDuring.split(',');
-        let mDuring = monthDuring.split(',');
+        yDuring = yDuring.split(',');
+        mDuring = mDuring.split(',');
 
         for (let i = 0, length = dataset.length; i < length; i++) {
             let item = dataset[i];
